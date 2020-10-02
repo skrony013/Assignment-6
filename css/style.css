@@ -1,0 +1,743 @@
+/*-----------------------------------
+        Google Fonts
+ ------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+/* 
+
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Roboto', sans-serif; 
+
+*/
+
+
+/*-----------------------------------
+            Starter Framework
+ ------------------------------------*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.667;
+    color: #797979;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*-----------------------------------
+            Header Section
+ ------------------------------------*/
+
+ .header-section {
+   /*  position: fixed; */
+    width: 100%;
+    background: #46389A;
+
+}
+.sticky{
+    width: 100%;
+    position: fixed;
+    background: #412fb3;
+    z-index: 999;
+}
+.sticky .button-header:hover {
+ background-color: #412fb3;
+ border: 1px solid #fff;
+ color: #fff;
+ transition: 0.5s;
+}
+.navbar{
+    padding: 20px 0;
+}
+
+ .nav-item{
+    margin-right: 30px;
+ }
+ .button-header {
+   font-family: "Roboto",sans-serif;
+   padding: 12px 45px;
+   border: 1px solid transparent;
+   text-transform: capitalize;
+   font-size: 15px;
+   font-weight: 500;
+   border-radius: 30px;
+   background-color: #fff;
+   color: #3a414e;
+   transition: all .4s ease;
+   transition: 0.5s;
+}
+.button-header:hover{
+ background-color: #22195B;
+ border: 1px solid #fff;
+ color: #fff;
+ transition: 0.5s;
+}
+.button-header:focus{
+outline: none;
+}
+
+
+.nav-link{
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    text-transform: capitalize !important;
+    font-weight: 700;
+    color: #fff !important;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.nav-link:hover{
+    filter: grayscale(1);
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+
+/*-----------------------------------
+          Banner Section
+ ------------------------------------*/
+.banner-section{
+    background-color: #423593;
+    background-image: url('../img/banner/banner-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 200px 0;
+}
+.banner-img{
+    padding-right: 90px;
+}
+.banner-button{
+    font-family: "Roboto",sans-serif;
+    padding: 12px 45px;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #3a414e;
+    transition: all .4s ease;
+    transition: 0.5s;
+}
+
+.banner-button:hover{
+  background-color: #22195B;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.banner-button:focus{
+ outline: none;
+}
+
+.banner-content h1{
+    font-family: 'Rajdhani', sans-serif;
+    color: #fff;
+    margin-bottom: 22px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.banner-content p{
+    font-family: "Roboto",sans-serif;
+    color: #fff;
+    margin-bottom: 45px;
+}
+
+
+/*-----------------------------------
+            Feature Section
+ ------------------------------------*/
+
+.feature-section{
+    width: 100%;
+    background-color: #fff;
+    margin: 135px 0;
+}
+
+.feature-heading{
+    max-width: 630px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 85px;
+}
+.feature-heading .feature-title{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #3a414e;
+    margin-bottom: 10px;
+}
+
+.feature-heading .feature-subtitle{
+    font-size: 15px;
+    color: #797979;
+    margin-bottom: 0;
+}
+.card-feature{
+        padding: 30px 35px;
+    border: 0;
+    border-radius: 0;
+    background: #faf9ff;
+    transition: 0.5s ease-in-out;
+}
+.card-feature:hover{
+    background: #fff;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    transition: 0.5s ease-in-out;
+}
+.card-title{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Rajdhani",sans-serif;
+    color: #3a414e !important;
+    line-height: 1.25;
+}
+
+.card-feature-icon img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 12px;
+    color: #21146a;
+}
+
+/*-----------------------------------
+            Revolution Section
+ ------------------------------------*/
+
+ .revolution-section{
+    width: 100%;
+    background-color: #FAF9FF;
+    margin: 135px 0;
+    padding: 100px 0;
+}
+
+
+.revolution-content h1{
+    font-family: 'Rajdhani', sans-serif;
+    color: #3a414e;
+    margin-bottom: 22px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.revolution-content p{
+    font-family: "Roboto",sans-serif;
+    color: #797979;
+    margin-bottom: 38px;
+}
+
+
+.revolution-button{
+    font-family: "Roboto",sans-serif;
+    padding: 12px 45px;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #3a414e;
+    transition: all .4s ease;
+    border-color: #21146a;
+}
+
+.revolution-button:hover{
+  background-color: #22195B;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: all .4s ease;
+}
+.revolution-button:focus{
+  outline: none;
+}
+
+.revo-img img{
+    margin: -30px 0;
+}
+
+/*-----------------------------------
+            Offer Section
+ ------------------------------------*/
+.offer-section{
+    width: 100%;
+    background-color: #fff;
+    margin: 135px 0;
+}
+ .offer-heading{
+    max-width: 630px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 85px;
+}
+.offer-heading .offer-title{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #3a414e;
+    margin-bottom: 10px;
+}
+
+.offer-heading .offer-subtitle{
+    font-size: 15px;
+    color: #797979;
+    margin-bottom: 0;
+}
+
+.card-offer{
+  padding: 30px 23px;
+  border: 0;
+  border-radius: 0;
+  background: #faf9ff;
+  transition: 0.5s ease-in-out;
+}
+.card-offer:hover{
+    background: #fff;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    transition: 0.5s ease-in-out;
+}
+.card-offer-title{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Rajdhani",sans-serif;
+    color: #3a414e !important;
+    line-height: 1.25;
+}
+
+.offer-c-1{
+    margin-top: -40px;
+}
+.offer-content i{
+    font-size: 30px;
+    color: #21146a;
+
+}
+.offer-content .card-offer-icon{
+        margin-bottom: 15px;
+}
+
+.offer-content-img img{
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+/*-----------------------------------
+            Solution Section
+ ------------------------------------*/
+
+ .solution-section{
+    width: 100%;
+    background-color: #FAF9FF;
+    margin: 135px 0;
+    padding: 100px 0;
+}
+
+
+.solution-content h1{
+    font-family: 'Rajdhani', sans-serif;
+    color: #3a414e;
+    margin-bottom: 22px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.solution-content p{
+    font-family: "Roboto",sans-serif;
+    color: #797979;
+    margin-bottom: 38px;
+}
+
+
+.solution-button{
+    font-family: "Roboto",sans-serif;
+    padding: 12px 45px;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #3a414e;
+    transition: all .4s ease;
+    border-color: #21146a;
+}
+
+.solution-button:hover{
+  background-color: #22195B;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: all .4s ease;
+}
+.solution-button:focus{
+  outline: none;
+}
+
+.solution-img img{
+    margin: -30px 0;
+}
+
+
+/*-----------------------------------
+            Price Section
+ ------------------------------------*/
+
+.price-section{
+    width: 100%;
+    margin: 135px 0;
+}
+
+.price-heading{
+    max-width: 630px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 85px;
+}
+.price-heading .price-title{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #3a414e;
+    margin-bottom: 10px;
+}
+
+.price-heading .price-subtitle{
+    font-size: 15px;
+    color: #797979;
+    margin-bottom: 0;
+}
+
+.card-price{
+  border: 0;
+  border-radius: 0;
+  background: #faf9ff;
+  padding: 40px 7px;
+  transition: 0.5s ease-in-out;
+}
+
+.card-price-header{
+    border-bottom: 1px solid #ebebeb;
+}
+.card-price:hover{
+    background: #fff;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    transition: 0.5s ease-in-out;
+}
+.card-price-title{
+    font-size: 27px;
+    font-weight: 700;
+    font-family: "Rajdhani",sans-serif;
+    color: #3a414e !important;
+    line-height: 1.25;
+    margin-bottom: 5px;
+}
+.card-price-subtitle{
+     margin-bottom: 27px;
+}
+
+.card-price-tag{
+    font-size: 60px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 27px;
+}
+.card-price-tag span{
+    font-size: 40px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 5px;
+}
+
+.card-price-list ul li{
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.card-price-list ul{
+    margin-top: 1rem;
+}
+.card-price-list ul li i{
+    font-size: 13px;
+    margin-right: 10px;
+    color: #595959;
+}
+.card-price-list{
+ border-bottom: 1px solid #ebebeb;
+ text-align: center;
+ padding: 15px 8px 25px 8px;
+}
+.card-price-button{
+    padding: 45px 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+.price-btn{
+    font-family: "Roboto",sans-serif;
+    padding: 12px 45px;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #3a414e;
+    transition: all .4s ease;
+    border-color: #21146a;
+}
+.price-btn:hover{
+   background-color: #22195B;
+   border: 1px solid #fff;
+   color: #fff;
+   transition: all .4s ease;
+}
+.price-btn:focus{
+ outline: none;
+}
+
+/*-----------------------------------
+            Testimonial Section
+ ------------------------------------*/
+
+.testimonial-section{
+    width: 100%;
+    background-color: #FAF9FF;
+    padding: 100px 0;
+
+}
+
+.testimonial-heading{
+    max-width: 630px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 40px;
+}
+.testimonial-heading .testimonial-title{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #3a414e;
+    margin-bottom: 10px;
+}
+
+.testimonial-heading .testimonial-subtitle{
+    font-size: 15px;
+    color: #797979;
+    margin-bottom: 0;
+}
+
+.testimonial-img {
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 30px;
+    z-index: 5;
+}
+
+.testimonial-content {
+    padding: 50px 20px 35px 20px;
+    background: #fff;
+    position: relative;
+    text-align: center!important;
+}
+
+.testimonial-content h3 {
+    font-family: "Rajdhani",sans-serif;
+    color: #3a414e;
+    line-height: 1.25;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.testimonial-content p {
+    font-size: 14px;
+    color: #797979;
+}
+
+.testimonial-content .testimonial-content-desc {
+    font-size: 15px !important;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.owl-theme .owl-nav{
+    display: none;
+}
+
+.owl-dots {
+    margin-top: 40px !important;
+}
+
+.owl-dots .owl-dot.active span {
+    background: #21146a !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 20px;
+    height: 6px;
+    background: #d3d2d5;
+    border-radius: 2px;
+    margin: 5px 10px;
+    transition: opacity 1s ease;
+}
+
+.owl-theme .owl-dots .owl-dot{
+    outline: none;
+}
+
+/*-----------------------------------
+            Brand Image Slider Section
+ ------------------------------------*/
+
+.brand-img-section{
+    width: 100%;
+    padding: 70px 0;
+}
+.brand-img-section img{
+ filter: grayscale(1);
+ opacity: 0.3;
+}
+.brand-img-section img:hover{
+ filter:none;
+ opacity: 1;
+}
+
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: auto !important;
+}
+
+
+
+/*-----------------------------------
+            Footer Section
+ ------------------------------------*/
+ .footer-section{
+    width: 100%;
+    background-color: #0E1424;
+    padding: 120px 0px 120px;
+}
+
+.footer-section .footer-info h4 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-family: "Rajdhani",sans-serif;
+    line-height: 1.25;
+}
+.footer-section ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+       color: #797979;
+       text-decoration: none;
+       background-color: transparent;
+}
+
+
+.subscribe-form{
+    margin-top: 25px;
+}
+
+.footer-section .footer-info input {
+    height: 48px;
+    border: none;
+    width: 67% !important;
+    font-weight: 400;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    padding-left: 20px;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.footer-section .footer-info .click-btn {
+    font-family: "Roboto",sans-serif;
+    color: #3a414e;
+    border-radius: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 8px 20px;
+    border: 0;
+    font-size: 14px;
+    background: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: relative;
+    left: 0;
+    left: -50px;
+}
+
+.footer-section .footer-info input:focus{
+  outline: none;
+}
+.footer-section .footer-info button:focus{
+  outline: none;
+  border: none;
+}
+
+.footer-section .footer-bottom {
+    margin-top: 70px;
+}
+
+.footer-section .footer-bottom p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-icons{
+    text-align: right!important;
+}
+
+.footer-section .footer-bottom .footer-icons a {
+    background: rgba(255,255,255,0.15);
+    margin-left: 3px;
+    width: 32px;
+    display: inline-grid;
+    text-align: center;
+    height: 32px;
+    align-content: center;
+    z-index: 999;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+ 
+
+.footer-section .footer-bottom .footer-icons a:hover{
+   background-color: #fff;
+   transition: 0.5s;
+}
+.footer-section .footer-bottom .footer-icons a i:hover{
+   color:#575757;
+   transition: 0.5s;
+}
+ 
+.subscribe-form input:focus::placeholder {
+  color: transparent;
+}
+
+
